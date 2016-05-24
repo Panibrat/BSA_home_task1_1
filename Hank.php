@@ -1,6 +1,6 @@
 <?php
-namespace Marvel\Atlantida;
-    class NamorSubMariner { 
+namespace Marvel\NewYork;
+    class HankPymAntMan { 
               
         public static function whoami() {
             $arr =  get_class();

@@ -1,9 +1,43 @@
 <?php
 require_once 'Namor.php';
 require_once 'Petr.php';
-use Marvel\Atlantida\NamorSubMariner as NamorSubMariner;
-use Marvel\Kiev\PetrEngineer as PetrEngineer;
+require_once 'Anthony.php';
+require_once 'Brian.php';
+require_once 'Hank.php';
+require_once 'Henry.php';
+require_once 'Janet.php';
+require_once 'Simon.php';
+require_once 'Petr.php';
+require_once 'Thor.php';
+require_once 'Petr.php';
+
+use Marvel\Atlantida\NamorSubMariner;
+use Marvel\Kiev\PetrEngineer;
+use Marvel\NewYork\HankPymAntMan;
+use Marvel\NewJersey\JanetVanDyneWasp;
+use Marvel\Asgard\ThorMightyThor;
+use Marvel\LongIsland\AnthonyEdwardTonyStarkIronMan;
+use Marvel\Paterson\SimonWilliamsWonderMan;
+use Marvel\UK\BrianBraddockCaptainBritain;
+use Marvel\Illinois\HenryPhilipHankMcCoyBeast;
+
+
     echo NamorSubMariner::whoami();
-    echo PetrEngineer::whoami();
-            
+//    echo "<hr>";
+//    echo PetrEngineer::whoami();
+//    echo "<hr>";
+//    echo HankPymAntMan ::whoami();
+//    echo "<hr>";
+//    echo JanetVanDyneWasp::whoami();
+//    echo "<hr>";
+//    echo ThorMightyThor::whoami();
+//    echo "<hr>";
+//    echo AnthonyEdwardTonyStarkIronMan::whoami();
+//    echo "<hr>";
+//    echo SimonWilliamsWonderMan::whoami();
+//    echo "<hr>";
+//    echo BrianBraddockCaptainBritain::whoami();
+//    echo "<hr>";
+//    echo HenryPhilipHankMcCoyBeast::whoami();
+           
 ?>
