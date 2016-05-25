@@ -1,7 +1,5 @@
 <?php
-function __autoload($className){    
-    require $className . '.php';
-}
+$loader = require __DIR__ . '/vendor/autoload.php';
 
 use Marvel\Atlantida\NamorSubMariner;
 use Marvel\Kiev\PetrEngineer;
