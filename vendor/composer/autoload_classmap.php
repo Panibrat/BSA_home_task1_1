@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'HeroesTrait' => $baseDir . '/src/Marvel/HeroesTrait.php',
+    'HeroesAbstract' => $baseDir . '/src/HeroesAbstract.php',
     'Marvel\\Asgard\\ThorMightyThor' => $baseDir . '/src/Marvel/Asgard/ThorMightyThor.php',
     'Marvel\\Atlantida\\NamorSubMariner' => $baseDir . '/src/Marvel/Atlantida/NamorSubMariner.php',
     'Marvel\\Illinois\\HenryPhilipHankMcCoyBeast' => $baseDir . '/src/Marvel/Illinois/HenryPhilipHankMcCoyBeast.php',

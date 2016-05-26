@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInit8231668e94c752f6709663c26aefe823
 {
     public static $classMap = array (
-        'HeroesTrait' => __DIR__ . '/../..' . '/src/Marvel/HeroesTrait.php',
+        'HeroesAbstract' => __DIR__ . '/../..' . '/src/HeroesAbstract.php',
         'Marvel\\Asgard\\ThorMightyThor' => __DIR__ . '/../..' . '/src/Marvel/Asgard/ThorMightyThor.php',
         'Marvel\\Atlantida\\NamorSubMariner' => __DIR__ . '/../..' . '/src/Marvel/Atlantida/NamorSubMariner.php',
         'Marvel\\Illinois\\HenryPhilipHankMcCoyBeast' => __DIR__ . '/../..' . '/src/Marvel/Illinois/HenryPhilipHankMcCoyBeast.php',
